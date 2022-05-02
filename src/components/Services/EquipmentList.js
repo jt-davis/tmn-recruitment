@@ -22,7 +22,7 @@ const EquipmentList = () => {
                 <EquipmentCard href="https://www.newtek.com/" target="_blank" aria-label="NewTek">
                     <ServicesIcon src={Icon2} />
                     <ServicesH2>Replay Machines</ServicesH2>
-                    <ServicesP>NewTek 3P2<br/>NewTek 3P1<br/>Test</ServicesP>
+                    <ServicesP>NewTek 3P2<br/>NewTek 3P1</ServicesP>
                 </EquipmentCard>
                 <EquipmentCard href="https://www.vizrt.com/products/viz-trio" target="_blank" aria-label="VizRt">
                     <ServicesIcon src={Icon3} />

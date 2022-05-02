@@ -166,7 +166,7 @@ export const homeObjEleven = {
     description: 'Undergrad Radio',
     description2: 'Undergrad TV',
     lineOne: 'DJ Personality OR News Anchor - 2nd Place',
-    lineTwo: 'Enterprise New Package - 1st Place',
+    lineTwo: 'Enterprise News Package - 1st Place',
     lineThree: 'Best Social Media - 2nd Place',
     lineFour: 'Sports Play by Play - 1st Place',
     lineFive: 'Station Website - 1st Place',
