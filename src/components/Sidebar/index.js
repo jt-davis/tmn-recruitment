@@ -1,5 +1,5 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -23,9 +23,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/description'>
+                    {/* <SidebarRoute to='/description'>
                         Sign In
-                    </SidebarRoute>
+                    </SidebarRoute> */}
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

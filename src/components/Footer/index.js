@@ -1,6 +1,6 @@
 import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import {
     FooterContainer,
     FooterWrap,
@@ -30,14 +30,13 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to="/signin">How It Works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>Site Map</FooterLinkTitle>
+                            <FooterLink to="/awards">Awards</FooterLink>
+                            <FooterLink to="/roles">Roles</FooterLink>
+                            <FooterLink to="/testimonials">Testimonials</FooterLink>
+                            <FooterLink to="/equipment">Equipment</FooterLink>
                         </FooterLinkItems>
-                        <FooterLinkItems>
+                        {/* <FooterLinkItems>
                             <FooterLinkTitle>About You</FooterLinkTitle>
                             <FooterLink to="/signin">How It Works</FooterLink>
                             <FooterLink to="/signin">Testimonials</FooterLink>
@@ -62,7 +61,7 @@ const Footer = () => {
                             <FooterLink to="/signin">Careers</FooterLink>
                             <FooterLink to="/signin">Investors</FooterLink>
                             <FooterLink to="/signin">Terms of Service</FooterLink>
-                        </FooterLinkItems>
+                        </FooterLinkItems> */}
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
@@ -77,9 +76,9 @@ const Footer = () => {
                             <SocialIconLink href="//www.facebook.com/tigermedianet/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            {/* <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
                             <SocialIconLink href="//www.youtube.com/c/tigermedianetwork" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconLink>

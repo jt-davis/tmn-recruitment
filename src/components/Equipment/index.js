@@ -1,19 +1,13 @@
 import React from 'react';
-import { Container, FormWrap, Icon, FormContent, FormH1, Text } from '../Description/DescriptionElements';
+import { Icon } from '../Description/DescriptionElements';
+import { TestimonialsBackground } from '../Testimonials/TestimonialsElements';
+
 
 const Equipment = () => {
     return (
-        <>
-            <Container>
-                <FormWrap>
-                    <Icon to="/">TMN</Icon>
-                    <FormContent>
-                            <FormH1>Equipment Page</FormH1>
-                            <Text>It worked!</Text>
-                    </FormContent>
-                </FormWrap>
-            </Container>
-        </>
+        <TestimonialsBackground>
+            <Icon to="/">TMN</Icon>
+        </TestimonialsBackground>
     );
 };
 

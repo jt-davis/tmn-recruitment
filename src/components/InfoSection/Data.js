@@ -34,8 +34,8 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'equipment',
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+    lightText: false,
     lightTextDesc: true,
     topLine: 'Tiger Media Network',
     headline: 'Equipment',
@@ -46,7 +46,7 @@ export const homeObjThree = {
     alt: 'Tricaster',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 };
 
 export const homeObjFour = {
@@ -79,4 +79,106 @@ export const homeObjFive = {
     dark: true,
     primary: true,
     darkText: true
+};
+
+export const homeObjSix = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: 'Camera Operator',
+    description: 'Camera Operators are the lifeblood of Tiger Media Network\'s sports broadcasts. Without them, we would obviously have nothing to show. As the title implies, they operate all of our cameras during productions. This can be anywhere from a single camera production to having upwards of eight or ten cameras depending on the situation.',
+    buttonLabel: 'More Info',
+    imgStart: false,
+    img: require('../../images/CameraOp.jpg').default,
+    alt: 'Camera Operator',
+    dark: true,
+    primary: true,
+    darkText: false
+};
+
+export const homeObjSeven = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: 'On-Air Talent',
+    description: 'On-Air Talent are the people you see on the broadcasts. For news, that would be the anchors and the reporters. For sports, it\'s the play-by-play and color commentator. These positions provide analysis on exactly what the viewers are looking at, giving supplementary information.',
+    buttonLabel: 'More Info',
+    imgStart: true,
+    img: require('../../images/Talent.jpg').default,
+    alt: 'On-Air Talent',
+    dark: true,
+    primary: true,
+    darkText: true
+};
+export const homeObjEight = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: 'Replay Operator',
+    description: 'The Replay Operator is the person who makes the replays that are shown on both the sports broadcast as well as on the video boards at both Lewis Field Stadium and Gross Memorial Coliseum. This role is fast paced and requires a lot of focus, but the outcome is a pivotal addition to any sports broadcast.',
+    buttonLabel: 'More Info',
+    imgStart: false,
+    img: require('../../images/Replay.png').default,
+    alt: 'Replay Operator',
+    dark: true,
+    primary: true,
+    darkText: false
+};
+export const homeObjNine = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: 'Technical Director',
+    description: 'The Technical Director is the one who works with the video switcher. The Technical Director will listen to the director and put whatever they say on the screen. Everything that shows up on the broadcast is there because the Technical Director put it there. From graphics, to specific cameras, and even commercials.',
+    buttonLabel: 'More Info',
+    imgStart: true,
+    img: require('../../images/TechDirector.jpg').default,
+    alt: 'Technical Director',
+    dark: true,
+    primary: true,
+    darkText: true
+};
+export const homeObjTen = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: 'Director',
+    description: 'The Director is the one who takes all the pieces (cameras, on-air talent, replays, and graphics) and puts it together to create the final product that goes live. The Director is in the ear of every other role asking for specific camera shots, letting the on-air talent know when they are live, asking for graphics to be put up, etc.',
+    buttonLabel: 'More Info',
+    imgStart: false,
+    img: require('../../images/Director.jpg').default,
+    alt: 'Director',
+    dark: true,
+    primary: true,
+    darkText: false
+};
+export const homeObjEleven = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Tiger Media Network',
+    headline: '2022 KBA Awards',
+    description: 'Undergrad Radio',
+    description2: 'Undergrad TV',
+    lineOne: 'DJ Personality OR News Anchor - 2nd Place',
+    lineTwo: 'Enterprise New Package - 1st Place',
+    lineThree: 'Best Social Media - 2nd Place',
+    lineFour: 'Sports Play by Play - 1st Place',
+    lineFive: 'Station Website - 1st Place',
+    lineSix: 'Complete News Feature - Honorable Mention',
+    lineSeven: 'Complete Sports Feature - 1st Place',
+    lineEight: 'Enterprise News Package - 2nd Place',
+    lineNine: 'Public Affairs Program (15-60 min max) - 2nd Place & Honorable Mention',
+    buttonLabel: 'More Info',
+    imgStart: false,
+    img: require('../../images/KAB.jpg').default,
+    alt: 'Kansas Association of Broadcasters',
+    dark: true,
+    primary: true,
+    darkText: false
 };

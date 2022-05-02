@@ -25,7 +25,7 @@ export const ServicesWrapper = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
-    padding: 0 50px;
+    padding: 0 50px 50px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -77,6 +77,7 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
+    text-align: center;
 `;
 
 export const ServicesP = styled.p`
