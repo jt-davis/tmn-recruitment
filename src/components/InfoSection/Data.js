@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Tiger Media Network',
     headline: 'Awards That We\'ve Won',
-    description: 'Check out some of the KBA awards that TMN has won recently.',
+    description: 'Check out some of the KAB awards that TMN has won recently.',
     buttonLabel: 'More Info',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
