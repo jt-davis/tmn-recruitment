@@ -21,7 +21,7 @@ const HeroSection = () => {
                     Tiger Media Network
                 </HeroH1>
                 <HeroP>
-                    Fort Hays State University News and Sports Broadcast Group
+                    Fort Hays State University News and Sports Broadcast Organization
                 </HeroP>
                 {/* <HeroBtnWrapper>
                     <Button to='equipment' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active">

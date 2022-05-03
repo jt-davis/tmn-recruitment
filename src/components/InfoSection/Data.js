@@ -21,7 +21,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: true,
     topLine: 'Tiger Media Network',
-    headline: 'Descriptions of the Roles',
+    headline: 'How You Can Be Involved',
     description: 'Take a look at some of the roles that we have at TMN.',
     buttonLabel: 'More Info',
     imgStart: true,
@@ -66,11 +66,11 @@ export const homeObjFour = {
 };
 
 export const homeObjFive = {
-    lightBg: true,
-    lightText: false,
+    lightBg: false,
+    lightText: true,
     lightTextDesc: true,
     topLine: 'Replay Operator',
-    headline: 'Jane Smith',
+    headline: 'Amy Williams',
     description: '"TMN has been a wonderful job! I\'ve loved the new friends I\'ve made as well as being able to get paid for doing something fun and unique like broadcasting all different types of sports."',
     buttonLabel: 'More Info',
     imgStart: false,
@@ -78,7 +78,7 @@ export const homeObjFive = {
     alt: 'student',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: false
 };
 
 export const homeObjSix = {
@@ -162,7 +162,7 @@ export const homeObjEleven = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Tiger Media Network',
-    headline: '2022 KBA Awards',
+    headline: '2022 KAB Awards',
     description: 'Undergrad Radio',
     description2: 'Undergrad TV',
     lineOne: 'DJ Personality OR News Anchor - 2nd Place',
@@ -181,4 +181,20 @@ export const homeObjEleven = {
     dark: true,
     primary: true,
     darkText: false
+};
+
+export const homeObjTwelve = {
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'On-Air Talent',
+    headline: 'John Smith',
+    description: '"TMN has allowed me to work in an environment that will be comparable to what I\'ll see in the real world. It\'s allowed me to gain experience at the job I want to do after I graduate college and even helped me connect with a few people in the industry!"',
+    buttonLabel: 'More Info',
+    imgStart: false,
+    img: require('../../images/student.jpg').default,
+    alt: 'student',
+    dark: true,
+    primary: true,
+    darkText: true
 };
